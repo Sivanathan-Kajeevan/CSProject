@@ -1,5 +1,12 @@
+/* ---------- Theme Colors & Overrides ---------- */
+:root {
+  --theme-primary: #198754;
+  --theme-primary-hover: #157347;
+  --theme-primary-rgb: 25, 135, 84;
+}
+
 body {
-  background-color: #f4f6f9;
+  background-color: #f4f8f5;
 }
 
 /* ---------- Login ---------- */
@@ -15,9 +22,17 @@ body {
   border-radius: 1rem;
 }
 
+/* ---------- Form Focus Highlights ---------- */
+.form-control:focus,
+.form-select:focus {
+  border-color: #75b798;
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
+
 /* ---------- Dashboard ---------- */
 .stat-card {
   border-radius: 0.75rem;
+  border-left: 4px solid var(--theme-primary) !important;
 }
 
 .table-responsive {

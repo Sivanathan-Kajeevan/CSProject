@@ -152,8 +152,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <td>${escapeHtml(s.email || '')}</td>
           <td>${escapeHtml(s.phone || '')}</td>
           <td class="text-end action-btns">
-            <button class="btn btn-sm btn-outline-info" data-action="view" title="View / Grades"><i class="bi bi-eye"></i></button>
-            <button class="btn btn-sm btn-outline-primary" data-action="edit" title="Edit"><i class="bi bi-pencil"></i></button>
+            <button class="btn btn-sm btn-outline-secondary" data-action="view" title="View / Grades"><i class="bi bi-eye"></i></button>
+            <button class="btn btn-sm btn-outline-success" data-action="edit" title="Edit"><i class="bi bi-pencil"></i></button>
             <button class="btn btn-sm btn-outline-danger" data-action="delete" title="Delete"><i class="bi bi-trash"></i></button>
           </td>
         `;
